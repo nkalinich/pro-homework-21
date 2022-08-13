@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .wrapp {
+            margin-top: 30px;
+            text-align: center;
+        }
+        /* .figure {
+            width: 250px;
+            height: 150px;
+            margin: 0 auto;
+            background: blue;
+        } */
+        .rectangle {
+            width: 250px;
+            height: 150px;
+            margin: 0 auto;
+            background: blue;
+        }
+        .square {
+            width: 150px;
+            height: 150px;
+            margin: 0 auto;
+            background: blue;
+        }
+        .circle {
+            width: 150px;
+            border-radius: 50%;
+            height: 150px;
+            margin: 0 auto;
+            background: blue;
+        }
+        .form  {
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="wrapp">
+        <form class="form">        
+            <select id="select">
+                <option value="">Выберите фигуру</option>
+                <option value="rectangle">rectangle</option>
+                <option value="square">square</option>
+                <option value="circle">circle</option>
+            </select>
+            <input id="color" type="color" value="#0000ff">
+        </form>
+        <div class="figure" id="figure"></div>
+    </div>
+    <script src="script.js"></script>   
+</body>
+</html>
